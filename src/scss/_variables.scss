@@ -1,0 +1,111 @@
+// Overrides CoreUI & Bootstrap Variables
+
+//
+// Color system
+//
+
+$white:                           #fff;
+$gray-100:                        #f8f9fa;
+$gray-200:                        #e4e5e6;
+$gray-300:                        #d1d4d7;
+$gray-400:                        #869fac;
+$gray-500:                        #678898;
+$gray-600:                        #9fa1a3;
+$gray-700:                        #3e515b;
+$gray-800:                        #2a2c36;
+$gray-900:                        #151b1e;
+$black:                           #000;
+
+$blue:                            #20a8d8;
+$indigo:                          #6610f2;
+$purple:                          #6f42c1;
+$pink:                            #e83e8c;
+$red:                             #f86c6b;
+$orange:                          #f8cb00;
+$yellow:                          #ffc107;
+$green:                           #4dbd74;
+$teal:                            #20c997;
+$cyan:                            #63c2de;
+
+// Import default variables
+@import "node_modules/@coreui/coreui-pro/scss/variables";
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-transitions:              true;
+$enable-rounded:                  false;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                         #e4e5e6;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-size-base:                  0.875rem;
+
+// Breadcrumbs
+
+$breadcrumb-padding-x:            2rem;
+$breadcrumb-bg:                   transparent;
+$breadcrumb-margin-bottom:        0;
+
+// Cards
+
+$card-border-color:               $gray-300;
+$card-cap-bg:                     $gray-100;
+
+// Dropdowns
+
+$dropdown-padding-y:              0;
+$dropdown-border-color:           $gray-200;
+$dropdown-divider-bg:             $gray-100;
+
+// Buttons
+
+$btn-secondary-border:            $gray-300;
+
+// Progress bars
+
+$progress-bg:                     $gray-100;
+
+// Tables
+
+$table-bg-accent:                 $gray-100;
+$table-bg-hover:                  $gray-100;
+
+// Forms
+
+$input-group-addon-bg:            $gray-100;
+$input-border-color:              $gray-200;
+$input-group-addon-border-color:  $gray-200;
+
+// CoreUI Overrides
+
+$border-color:                    $gray-300;
+
+// Navbar
+
+$navbar-brand-width:              200px;
+$navbar-brand-logo-size:          80px auto;
+
+// Sidebar
+
+$sidebar-width:                   250px;
+$mobile-sidebar-width:            250px;
+
+// Sidebar Navigation
+
+$sidebar-bg:                      $gray-800;
+$sidebar-nav-link-hover-bg:       darken($sidebar-bg, 5%);
+$sidebar-nav-link-active-bg:      darken($sidebar-bg, 5%);
+$sidebar-nav-dropdown-bg:         darken($sidebar-bg, 3%);
+
+// Breadcrumb
+
+$breadcrumb-borders:              0;
