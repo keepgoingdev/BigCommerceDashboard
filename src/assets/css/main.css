@@ -1,0 +1,21 @@
+body{
+  background-color: white !important;
+}
+.productAddButton{
+  width: 150px;
+}
+.Toastify__toast--error .Toastify__progress-bar{
+  background-color: rgb(231, 76, 60) !important;
+}
+td{
+  border-left: none !important;
+  border-right: none !important;
+}
+.productTable tr th:first-child{
+  width: 100px;
+  text-align: center !important;
+}
+.productTable tr td:first-child{
+  width: 100px;
+  text-align: center !important;
+}

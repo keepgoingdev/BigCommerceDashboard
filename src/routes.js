@@ -7,21 +7,21 @@ function Loading() {
   return <div>Loading...</div>;
 }
 
-const Dashboard = Loadable({
-  loader: () => import('./views/Dashboard'),
+const Products = Loadable({
+  loader: () => import('./views/Products'),
   loading: Loading,
 });
 
-const Products = Loadable({
-  loader: () => import('./views/Products'),
+const AddProduct = Loadable({
+  loader: () => import('./views/Products/AddProduct'),
   loading: Loading,
 });
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
   { path: '/', name: 'Home', component: DefaultLayout, exact: true },
-  { path: '/dashboard', name: 'Dashboard', component: Dashboard },
   { path: '/products', name: 'Products', component: Products },
+  { path: '/AddProduct', name: 'AddProduct', component: AddProduct },
 ];
 
 export default routes;

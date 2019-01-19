@@ -18,6 +18,9 @@ import { DefaultLayout } from './containers';
 
 // import { renderRoutes } from 'react-router-config';
 
+//import custom css
+import './assets/css/main.css'
+
 class App extends Component {
   render() {
     return (
